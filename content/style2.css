@@ -1,0 +1,57 @@
+#container {
+  max-width: 250px;
+  margin: 0 auto;
+
+  margin-top: 20vh;
+}
+.card {
+  background-color: white;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 0, auto;
+}
+.tag {
+  padding: 4px 8px;
+  border: 1px solid black;
+
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600px;
+  color: black;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: black;
+  line-height: 150%;
+}
+
+button {
+  border: none;
+  padding: 12px, 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: beige;
+  background-color: gold;
+
+  margin: 0 auto;
+  display: block;
+  transition: all 200ms ease-in-out;
+}
+
+button:focus,
+button:hover {
+  color: #d3d3d3;
+  background-color: gold;
+}
+section {
+  text-align: center;
+}
